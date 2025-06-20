@@ -18,19 +18,6 @@ The generated SVG card will be displayed along with BBCode, HTML, and Markdown q
 
 ![GitHub Repo Card Generator Interface](https://i.imgur.com/PikixRc.png)
 
-## Examples
-
-![GitHub Repo Card](https://ghc.clait.sh/repo/claitz/GitHub-Repo-Cards-Generator?bg_color=ffffff&title_color=0366d6&text_color=333333&icon_color=3g3333&show_user=false)
-
-![GitHub Repo Card](https://ghc.clait.sh/repo/claitz/GitHub-Repo-Cards-Generator?bg_color=333333&title_color=37ff00&text_color=00eeff&icon_color=ff00bb&show_user=false)
-
-![GitHub Repo Card](https://ghc.clait.sh/repo/claitz/GitHub-Repo-Cards-Generator?bg_color=334333&title_color=ffff00&text_color=00ccff&icon_color=ff0000&show_user=true)
-
-
-## Demo
-
-A demo of the application is available at [https://ghc.clait.sh](https://ghc.clait.sh).  
-The capacity of the demo server is limited and the caching policy aggressive, I suggest you to run your own instance of the application.
 
 ## Setup
 
@@ -60,19 +47,6 @@ npm start
 
 The server will start running at `http://localhost:3000`.
 
-### Docker Setup
-This application is also available as a Docker image on Docker Hub.
-
-1. Pull the Docker image:
-```bash
-docker pull claitz/github-repo-card-generator
-```
-2. Run the Docker container, replacing `your_github_token` with your GitHub token:
-```bash
-docker run -p 3000:3000 -e GITHUB_TOKEN=your_github_token -e PUBLIC_URL=your_public_url claitz/github-repo-card-generator
-```
-
-3. Replace `your_public_url` with the public-facing URL (e.g., `https://example.com`).
 
 ## Usage
 Navigate to `http://localhost:3000` in your web browser (or your public URL if configured).
