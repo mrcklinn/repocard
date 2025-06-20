@@ -55,10 +55,3 @@ Enter the GitHub username and repository name in the provided fields, customize 
 The generated SVG card will be displayed along with BBCode, HTML, and Markdown quick copy codes for embedding the card.
 
 The repository must be public.
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[Creative Commons Attribution Share Alike 4.0 International](https://choosealicense.com/licenses/cc-by-sa-4.0/)
